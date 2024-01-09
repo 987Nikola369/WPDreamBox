@@ -1,0 +1,24 @@
+
+/* CSS for the WordPress plugin with a responsive black and purple gradient background */
+.hoodie-mockup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height for mobile responsiveness */
+  padding: 20px;
+  background: linear-gradient(180deg, #000000 0%, #6a0dad 100%); /* Black to purple gradient */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hoodie-mockup {
+  max-width: 90%;
+  max-height: 80vh; /* Adjust the size of the hoodie mockup to not exceed the viewport height */
+}
+
+@media (max-width: 768px) {
+  .hoodie-mockup {
+    max-width: 95%; /* Increase the max width for smaller devices for better visibility */
+  }
+}
